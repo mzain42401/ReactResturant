@@ -1,0 +1,32 @@
+.CardContainer{
+    
+    width: 100%;
+    height: max-content;
+    /* padding: 30px; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.CenterCardContainer{
+    border: 1px solid black;
+height: max-content;
+width: 90%;
+margin: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+.CardDiv{
+    height: 400px;
+    width: 300px;
+    border: 1px solid red;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}

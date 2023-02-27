@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    background-color: gainsboro;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 25px 25px 0px 0px;
+    margin: auto;
+    margin-top: 10px;
+}
+nav>div:hover{
+text-decoration: underline gray 3px;
+cursor: pointer;
+}
